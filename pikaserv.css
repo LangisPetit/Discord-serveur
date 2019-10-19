@@ -1,0 +1,68 @@
+
+body 
+{
+    background: url(back.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+#pikaserv
+{
+    color: gold;
+    position:relative;
+    width:606px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+    position:relative;
+    margin-left:-300px;
+    left:50%;
+}
+
+#pikaserv .article
+{
+    position:relative;
+    border:solid 3px rgb(255, 228, 14);
+    border-radius: 80px;
+    width:auto;
+    height:300px;
+    margin-bottom:10px;
+}
+#pikaserv .article *
+{
+	float:left;
+}
+#pikaserv .article img
+{
+    border-radius: 100%;
+    width:150px;
+    height:150px;   
+    top:10px;
+    left:10px;
+}
+
+#pikaserv .article h4
+{
+    color: gold;
+    width:370px;
+    top:10px;
+    left:240px;
+}
+
+#pikaserv .article p
+{
+    color: gold;
+    width:350px;
+    top:30px;
+    left:240px;
+    text-align:justify;
+}
+
+#pikaserv .article a
+{
+    
+    width:370px;
+    bottom:10px;
+    left:240px;
+}
+        
